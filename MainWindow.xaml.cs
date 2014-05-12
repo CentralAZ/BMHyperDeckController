@@ -27,7 +27,7 @@ namespace BlackMagicHyperDeckControl
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Receiving byte array  
+        // Receiving byte array...
         byte[] _bytes = new byte[1024];
         System.Text.ASCIIEncoding _asciiEncoder = new System.Text.ASCIIEncoding();
         List<string> _servers = new List<string>( new string[] { "10.100.25.16", "10.100.25.12", "10.100.25.13" } );
